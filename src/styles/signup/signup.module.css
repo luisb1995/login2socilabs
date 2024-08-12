@@ -1,0 +1,405 @@
+  .registerContainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      min-height: 726px;
+      background-color: #27477d;
+  }
+  .form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #dbf2f9;
+      width: 600px;
+      margin: 50px;
+      gap: 20px;
+      padding: 50px 0px;
+      min-height: 700px;
+      border-radius: 20px;
+      overflow: hidden;
+  }
+  .titleCrearCuenta{
+      font-size: xx-large;
+      font-weight: 800;
+      color: #293048;
+      margin-bottom: 10px;
+  }
+  .label{
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      width: 380px;
+    }
+    .input{
+      border-radius: 12px;
+      width: 350px;
+      border: 1px solid #9cb4d3;
+      background-color: white;
+      
+  }
+    .input:focus{
+      outline: none;        
+      box-shadow: none;
+      border: 3px solid #27477d;
+    }
+    .iconUser{
+      vertical-align: middle;
+      font-size: 25px;
+      color: #27477d;
+    }
+    .iconEmail{
+      vertical-align: middle;
+      font-size: 28px;
+      color: #27477d;
+    }
+    .iconPass{
+      vertical-align: middle;
+      font-size: 28px;
+      color: #27477d;
+    }
+    .iconWorldR{
+      font-size: 25px;
+       margin-right: 2px;
+       color: #27477d;
+    } 
+    .iconLabR {
+      font-size: 25px;
+       margin-right: 2px;
+       color: #27477d;
+    }   
+   
+    .select{
+          width: 348px;
+          border-radius: 12px;
+          border-color: rgba(39, 71, 125, 0.5);
+          gap: 25px;
+          display: flex;
+
+      }
+      
+  
+    
+    .focused{
+        border-color: rgba(39, 71, 125, 1) !important;
+    }
+
+    .phoneDropdown{
+        top: auto !important;
+	      bottom: 100% !important;
+
+     }
+
+    .btnPhoneClick{
+        border-radius: 12px;
+
+    }
+    .titlePagin{
+      font-size: 16px;
+      padding-right: 5px;
+      color: #27477d;
+      letter-spacing: 1px;
+    
+    
+     }
+     .titleLab{
+      margin-top: 5px;
+      font-size: 14px;
+      width: 380px;
+      margin-left: 10px;
+      color: #27477d;
+      margin-bottom: 0;
+      padding-bottom: 0;
+     }
+     .label2{
+      color: #27477d;
+     }
+     .divN{
+      display: flex;
+      width: 380px;
+      justify-content: center;
+      align-items: center;
+     
+     }
+     .nameUrl{
+      display: flex;
+      
+      border: 1px solid #27477d ;
+      border-radius: 12px;
+      width: 350px;
+      height: 45px;
+      overflow: hidden;
+     }
+     .iconWWWR{
+      font-size: 28px;
+      margin-right: 4px;
+      color: #27477d;
+     }
+     .input2{
+      border: none;
+      width: 150px;
+      padding-left: 10px;
+      background-color: #f5f9fa;
+      text-align: center;
+      border-radius: 0px;
+      color: #27477d;
+
+      border-right: 1px solid gray;
+     }
+     .input2:focus{
+        margin-left: 0;
+        outline: none;
+        box-shadow: none;
+        border-right: 1px solid gray;
+     }
+     .recaptcha{
+        width: 280px;
+        margin-top: 10px;
+     }
+     .SectionTermYcond{
+      display: flex;
+      width: 370px;
+      margin-bottom: 20px;
+      align-items: center;
+      padding-left: 2px;
+    
+     }
+     
+     .spanTermyCond{
+      padding-top: 22px;
+	    font-size: 15px;
+	    justify-content: left;
+      margin-left: 5px;
+     }
+     .link{
+      font-style: italic;	
+      font-weight: 600;
+      color: #00adfd;
+     }
+     .btnCrearCuenta{
+      height: 50px;
+      width: 335px;
+      border-radius: 20px;
+      padding: 10px 30px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: white;
+      background-color: #27477d;
+      box-shadow: 2px 0 2px 0 rgba(20, 20, 20, 0.3);
+    
+     }
+     .btnCrearCuenta:hover{
+      cursor: pointer;
+      border: 2px solid #3faadb;
+      background-color: #385e9e;
+    
+     }
+     .label2{
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+     @media only screen and (max-width: 768px) {
+
+      .form{
+          width: 500px;
+      }
+    
+    }
+    @media only screen and (max-width: 600px) {
+
+      .form{
+          text-align: center;
+          padding: 20px;
+          width: 470px;
+      }
+      .containerPhone{
+        width: 200px;
+        gap: 5px !important; 
+        overflow: hidden;
+      }
+      
+    }
+    @media only screen and (max-width: 500px) {
+ 
+      .form{
+          max-width: 410px;
+          margin: 10px;
+          padding: 50px 0;
+      }
+      .label{
+        width: 320px;
+      }
+      .label2{
+        width: 320px;
+      }
+      .focused{
+        width: 200px;
+      }
+      .containerPhone{
+        width: 200px;
+        gap: 5px !important; 
+        overflow: hidden;
+      }
+      .divN{
+          width: 320px;
+      }
+      .titlePagin{
+        font-size: 14px;
+      }
+      .input{
+        font-size: 14px;
+      }
+      .input2{
+        width: 130px;
+        font-size: 14px;
+      }
+      .select{
+        font-size: 15px;
+      }
+      .recaptcha{
+        width: 280px;
+        padding: 0;
+        transform: scale(0.95);
+        transform-origin: 0 0;         
+      }
+      .SectionTermYcond{
+        width: 320px;
+        gap: 3px;
+          
+          align-items: start;
+          
+        }
+      .spanTermyCond{
+        padding-top: 0;
+        
+        text-align: left;
+        
+      }
+      .termsConditionsInput{
+        padding: 5px;        
+      }
+    }
+    @media only screen and (max-width: 430px) {
+ 
+      .form{
+          width: 380px;
+          margin: 10px;
+      }
+      .titleLab{
+        width: 320px; 
+      }
+      .recaptcha{
+        width: 260px;
+        padding: 0;
+        transform: scale(0.90);
+        transform-origin: 0 0;         
+      }
+    }
+    @media only screen and (max-width: 400px) {
+     
+      .form{
+          max-width: 350px;
+          margin: 15px;
+      }
+      .label{
+        width: 280px;
+      }
+      .label2{
+        width: 280px;
+      }
+      .divN{
+          width: 280px;
+      }
+      .titlePagin{
+        font-size: 13px;
+      }
+      .input2{
+        width: 120px;
+        font-size: 14px;
+      }
+      .recaptcha{
+        width: 240px;
+        padding: 0;
+        transform: scale(0.85);
+        transform-origin: 0 0;        
+      }
+     .SectionTermYcond{
+        width: 280px;
+        gap: 3px;
+          
+          align-items: start;
+          
+        }
+        .btnCrearCuenta{
+          width: 270px;
+        }
+     
+    }
+    @media only screen and (max-width: 360px) {
+     
+      .form{
+          max-width: 330px;
+          margin: 10px;
+          padding: 30px 20px;
+      }
+      .label{
+        width: 260px;
+      }
+      .label2{
+        width: 260px;
+      }
+      .titleLab{
+        width: 290px; 
+      }
+      .divN{
+        width: 260px;
+    }
+    .titlePagin{
+      font-size: 13px;
+    }
+    .input2{
+      width: 100px;
+      font-size: 14px;
+    }
+    .SectionTermYcond{
+      width: 260px;
+      gap: 3px;
+        
+        align-items: start;
+        
+      }
+      .btnCrearCuenta{
+        width: 250px;
+      }
+      
+    }
+    @media only screen and (max-width: 345px) {
+     
+      .form{
+          max-width: 330px;
+          margin: 15px;
+          padding: 30px 20px;
+      }
+      .label{
+        width: 260px;
+      }
+      .label2{
+        width: 260px;
+      }
+      .SectionTermYcond{
+        width: 240px;
+        gap: 3px;
+          
+          align-items: start;
+          
+        }
+        .btnCrearCuenta{
+          width: 220px;
+        }
+    }
